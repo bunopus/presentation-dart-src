@@ -1,17 +1,22 @@
 name: presentation_dart_src
-description: A Dart app that uses Angular 2
+description: Presentation project for Dart
 version: 0.0.1
 environment:
   sdk: '>=1.13.0 <2.0.0'
 dependencies:
-  angular2: 2.0.0-beta.12
+  angular2: 2.0.0-beta.13.1
   browser: ^0.10.0
   dart_to_js_script_rewriter: ^1.0.1
+  params:
+    git:
+      ref: v0.2.1
+      url: https://github.com/DisDis/params.git
+  intl: "^0.12.7"
+
 transformers:
 - angular2:
-    platform_directives:
-    - 'package:angular2/common.dart#COMMON_DIRECTIVES'
-    platform_pipes:
-    - 'package:angular2/common.dart#COMMON_PIPES'
-    entry_points: web/main.dart
+     platform_directives: 'package:angular2/common.dart#COMMON_DIRECTIVES'
+     platform_pipes: 'package:angular2/common.dart#COMMON_PIPES'
+     entry_points: web/main.dart
 - dart_to_js_script_rewriter
+- params
