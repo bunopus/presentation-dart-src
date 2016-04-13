@@ -6,7 +6,7 @@ import 'package:presentation_dart_src/comments-box/models/like.dart';
 class LikesService extends EntitiesService<Like> {
 
   @override
-  String get url => '/json/likes.json';
+  String get url => 'json/likes.json';
 
   @override
   Like deserializeEntity(Map entity) => new Like.fromMap(entity);

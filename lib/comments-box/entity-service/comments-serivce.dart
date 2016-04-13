@@ -6,7 +6,7 @@ import 'package:presentation_dart_src/comments-box/models/comment.dart';
 class CommentsService extends EntitiesService<Comment> {
 
   @override
-  String get url => '/json/comments.json';
+  String get url => 'json/comments.json';
 
   @override
   Comment deserializeEntity(Map entity) => new Comment.fromMap(entity);
