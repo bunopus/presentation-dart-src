@@ -7,3 +7,4 @@ Sources for presentation about Dart language. You can see working slides [here](
 * [Why Dart is not dead](https://jaxenter.com/the-dead-live-longer-5-arguments-for-the-success-of-dart-123238.html)
 * [The new AdWords UI uses Dart — we asked why](http://news.dartlang.org/2016/03/the-new-adwords-ui-uses-dart-we-asked.html)
 * [Lamguages comparsion](http:/www.codebulb.ch/2015/09/the-javascript-typescript-coffescript-dart-choice-2015-part-1.html)
+* [Dart vs Typescript](http://programmers.stackexchange.com/questions/167070/differences-between-typescript-and-dart)
